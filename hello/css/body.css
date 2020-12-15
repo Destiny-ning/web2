@@ -1,0 +1,191 @@
+#box1{
+    margin:0 auto;
+    width:1000px;
+    height:600px;
+    position: relative;
+    /* border:1px solid blue; */
+}
+#box2{
+    margin:0 auto;
+    width:1000px;
+    height:600px;
+    position:absolute;
+    /* border:1px solid blue; */
+    background-color: coral;
+}
+#head{
+    width:1000px;
+    height:70px;
+    margin:0 auto;
+    background:url(https://handan.fangte.com/images/header_con.jpg) repeat center;
+}
+.head1{
+    width:800px;
+    height:70px;
+    margin:0 auto;
+}
+.head2 a{
+    width:200px;
+    height:70px;
+    font-size:40px;
+    font-weight:bold;
+    float:left;
+    color:yellow;
+    margin-top:10px;
+}
+.head2 a:hover{
+    font-size:40px;
+    font-weight:bold;
+    color:bisque;
+}
+/* 以上为头部样式设置 */
+
+#main{
+    width:1000px;
+    margin:0 auto;
+    }
+    #smallpic{
+    margin:0 auto;
+    height:120px; 
+    width:1000px;
+    margin-left:35px;
+    }
+    #img{
+    float:left; 
+    margin-right:10px; 
+    margin-bottom:10px;
+    }
+    #smallpic img:hover{
+      cursor:pointer;
+    }
+    #bigpic{
+        width:800px;
+        height:400px;
+        margin:0 auto;
+        margin-left:90px;
+    }
+    .big {
+        border:1px solid rgb(136, 255, 0);
+    }
+    /* 中间切换图片和点击注册的部分 */
+
+    .copyright{
+        width: 100%;
+        height: 153px;
+        background-color: coral;
+    }
+    .copyright1{
+        /* border:1px double goldenrod; */
+        /* width: 1200px; */
+        height: 80px;
+        margin: 0 auto;
+    }
+    .copyright1 p{
+        text-align: center;
+        font-size: 20px;
+        color: rgb(168, 75, 118);
+        height: 80px;
+        line-height: 80px;
+    }
+    /* 底部版权的部分 */
+    .top{
+        width:1000px;
+        height:80px;
+        margin:0 auto;
+        background:url(https://handan.fangte.com/images/top_menu1.png) repeat center;
+        background-color: coral;
+    }
+    .y{
+        width:1000px;
+        height:600px;
+        margin:0 auto;
+        background:url(https://images.fangte.com/Ftwx/ImageFiles/201907150748108366.png) repeat center;
+    }
+    /* 给盒子设置样式 */
+    .yjn{
+    width: 600px;
+    height: 600px;
+    padding: 0 20px;
+    margin: 0 auto; 
+    margin-left:30px;
+    padding-top:100px;
+
+           
+}
+    .p{
+    margin-top: 5px;
+    margin-bottom: 30px;
+        color:yellow;
+}
+    /* input设置的一些样式 */
+    .inp{
+    width: 200px;
+    height: 35px;
+    text-indent: 8px;
+    font-weight: bolder;
+    display: inline-block;
+        margin-top:20px;
+        padding-top: 5px;
+        border:1px solid rgb(191, 228, 107);
+        background-color: rgb(175, 240, 240);
+        border-left:none;
+}
+    /* 用户输入时的提示信息 */
+    .notice{
+        height: 30px;
+        line-height: 30px;
+        font-size: 12px;
+        color:rgb(224, 30, 208);
+}
+    /* 按钮 */
+    .btn{
+    background: red;
+    width: 290px;
+    height: 40px;
+    border: none;
+    margin-top: 8px;
+    color: #fff;
+    border-radius: 3px;
+    font-size: larger;
+}
+    /* 点击立即注册时出来的信息 */
+    .showTips{
+        color:rgb(224, 30, 208);
+        width:200px;
+        display:inline-block;
+        height:40px;
+        margin-left:70px;
+    }
+    .name{
+        display:inline-block;
+        border:1px solid pink;
+        border-right:none;
+        height:30px;
+        width:90px;
+        padding-top:9px;
+        color:rgb(65, 65, 22);
+        background-color: rgb(175, 240, 240);
+    }
+    #begin{
+        width:200px;
+        height:40px;
+        margin-left:30px;
+        margin-top:40px;
+        font-size:larger;
+    }
+    #last{
+        margin:0 auto;
+        text-align:center;
+        font-size: 30px;
+        line-height:3;
+        width:1000px;
+        height:200px;
+        background:url(https://handan.fangte.com/images/index_langans.png) repeat ;
+       
+    }
+    #start{
+        background-color: coral;
+    }
+    body{
+        background:url(https://handan.fangte.com/images/header_con.jpg) repeat;
+    }
